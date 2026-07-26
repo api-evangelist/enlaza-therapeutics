@@ -1,8 +1,13 @@
 aid: enlaza-therapeutics
 name: Enlaza Therapeutics
-description: Enlaza Therapeutics is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Enlaza Therapeutics is a clinical-stage biopharmaceutical company in La Jolla,
+  California developing first-in-class covalent protein biologics for cancer and other serious
+  diseases. Its proprietary War-Lock technology uses engineered unnatural amino acids to enable
+  protein drugs — including antibody-drug conjugates and T-cell engagers — to bind their disease
+  targets irreversibly, aiming for sustained target occupancy and a prolonged biologic effect with
+  minimal systemic exposure across oncology and immuno-oncology applications. The company was
+  surfaced as a portfolio company of Lightspeed Venture Partners and added to the API Evangelist
+  network; it publishes a corporate website but no public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/enlaza-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +15,47 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://enlazatx.com/wp-content/uploads/2022/12/Enlaza_logo.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Therapeutics
+- Oncology
+- Biologics
+- Drug Discovery
+- Life Sciences
 apis: []
+common:
+- type: DomainSecurity
+  url: security/enlaza-therapeutics-domain-security.yml
+- type: Website
+  url: https://www.enlazatx.com
+- type: PrivacyPolicy
+  url: http://enlazatx.com/wp-content/uploads/2022/12/Enlaza_Therapeutics_Privacy_Policy.pdf
+- type: TermsOfService
+  url: http://enlazatx.com/wp-content/uploads/2022/12/Enlaza_Therapeutics_Terms_of_Use_Website.pdf
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
